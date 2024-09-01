@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+
+    background-color: rgb(235, 235, 235);
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(1, 201, 97);
+    border-bottom: 2px solid rgb(1, 201, 97);
+    transition: all 0.1s ease;
+}
+
+.header a:hover {
+    border: 0;
+}
+
+.v-list-item:hover {
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}

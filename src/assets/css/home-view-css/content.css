@@ -1,0 +1,23 @@
+.home-view-content {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-currency-block {
+    display: flex;
+    flex-direction: row;
+
+    gap: 13px;
+    width: fit-content;
+    padding: 15px;
+    background-color: rgb(236, 236, 236);
+}
+
+.main-currency-block .main-currency {
+    color: rgb(1, 201, 97);
+}
+
